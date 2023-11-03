@@ -32,7 +32,6 @@ def load_county_names():
 ## Only load counties if this is the first run through of the script
 if st.session_state["first_time"]:
 	st.session_state["county_names"] = load_county_names()
-	st.write(st.session_state["county_names"])
 	st.session_state["first_time"] = False # We've loaded the county names once, we can track that by setting first_time to False
 
 
