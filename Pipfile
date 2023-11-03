@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+altair = "<5"
+seaborn = "*"
+ipywidgets = "*"
+pandas = "*"
+urllib3 = "*"
+folium = "*"
+geopandas = "*"
+streamlit-folium = "*"
+requests = "*"
+ECHO_modules = {git = 'https://github.com/edgi-govdata-archiving/ECHO_modules.git'}
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.16"
